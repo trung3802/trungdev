@@ -1,0 +1,5 @@
+<h2>Tính Tích Từ 1 Đến n</h2>
+<label for="numberInput">Nhập n: </label>
+<input type="number" id="numberInput" [(ngModel)]="n" />
+<button (click)="tinhTich()">Tính Tích</button>
+<p *ngIf="ketQua">Tích từ 1 đến {{ n }} là: {{ ketQua }}</p>

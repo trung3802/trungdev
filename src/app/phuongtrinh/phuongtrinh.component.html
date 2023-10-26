@@ -1,0 +1,19 @@
+<h1>Giải PT bậc 2</h1>
+<form (ngSubmit)="giaipt()">
+    <div>
+        <label for="a">Hệ số a:</label>
+        <input type="number" id="a" name="a" [(ngModel)]="a1" required>
+    </div>
+    <div>
+        <label for="b">Hệ số b:</label>
+        <input type="number" id="b" name="b" [(ngModel)]="b1" required>
+    </div>
+    <div>
+        <label for="c">Hệ số c:</label>
+        <input type="number" id="c" name="c" [(ngModel)]="c1" required>
+    </div>
+    <button type="submit">Giải</button>
+</form>
+<p *ngIf="kq">Kết quả: {{kq}}</p>
+<p *ngIf="kq === 'Phương trình có nghiệm kép'">Nghiệm kép: x = {{x1}}</p>
+<p *ngIf="kq === 'Phương trình có hai nghiệm'">Nghiệm 1: x1 = {{x1}},<br> Nghiệm 2: x2 = {{x2}}</p>

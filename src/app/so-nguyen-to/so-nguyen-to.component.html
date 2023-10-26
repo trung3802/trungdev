@@ -1,0 +1,9 @@
+<h2>Số Nguyên Tố Từ m Đến n</h2>
+<label for="mInput">Nhập m: </label>
+<input type="number" id="mInput" [(ngModel)]="m" />
+<label for="nInput">Nhập n: </label>
+<input type="number" id="nInput" [(ngModel)]="n" />
+<button (click)="findPrimesInRange()">Tìm Số Nguyên Tố</button>
+<ul *ngIf="primeNumbers.length > 0">
+    <li *ngFor="let number of primeNumbers">{{ number }}</li>
+</ul>

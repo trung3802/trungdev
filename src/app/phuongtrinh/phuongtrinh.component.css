@@ -1,0 +1,54 @@
+/* Định dạng cho thẻ h1 */
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* Định dạng cho biểu mẫu và các phần tử bên trong nó */
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+/* Định dạng cho nhãn và trường nhập văn bản */
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Định dạng cho nút Giải */
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Định dạng cho kết quả */
+
+p {
+    font-weight: bold;
+    margin-top: 10px;
+}
